@@ -158,8 +158,7 @@ entity:SetCallback("OnDamagePlayer", function(newHealth)
 local scare = Instance.new("Sound")
 scare.Parent = workspace
 scare.Name = "MyEarsBurn"
-scare.SoundId = "rbxassetid://5567523008"
-scare.PlaybackSpeed = 3
+scare.SoundId = "rbxasset://custom_gloop/Thereboudjumscare.mp3"
 scare.Volume = 3
 scare:Play()
 
